@@ -1,0 +1,120 @@
+.login-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  height: 1024px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.login-card {
+  background: linear-gradient(
+    142.42deg,
+    rgba(114, 104, 117, 0.21) 1.79%,
+    rgba(117, 116, 117, 0) 100.42%
+  );
+  padding: 20px;
+  height: 509px;
+  width: 797px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+  box-shadow: 6.82px 6.82px 16.37px 0px #51515166 inset;
+  box-shadow: -6.82px -6.82px 20.46px 0px #28262675 inset;
+}
+
+@media screen and (max-width: 768px) {
+  .login-bg {
+    height: 640px;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .login-card {
+    width: 350px;
+    height: 420px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.form-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-user-input {
+  color: #ffffff;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #42404d;
+  width: 360px;
+  height: 40px;
+  border-radius: 39px;
+  border: 1px solid #ffffff;
+}
+.form-password {
+  color: #ffffff;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #42404d;
+  width: 360px;
+  height: 40px;
+  border-radius: 39px;
+  border: 1px solid #ffffff;
+}
+
+.checkbox-con {
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  height: 40px;
+  width: 360px;
+  border-radius: 8px;
+  background-color: #ffbe38;
+  color: #1c1a28;
+  font-weight: bold;
+}
+.error-msg {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .form-user-input {
+    width: 280px;
+    height: 40px;
+    top: 24px;
+    gap: 0px;
+    border-radius: 39px;
+    border: 1px solid #ffffff;
+  }
+  .form-password {
+    width: 280px;
+    height: 40px;
+    top: 24px;
+    gap: 0px;
+    border-radius: 39px;
+    border: 1px solid #ffffff;
+  }
+  .login-btn {
+    width: 280px;
+    height: 40px;
+    top: 436px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}

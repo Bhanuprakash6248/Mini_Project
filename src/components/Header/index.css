@@ -1,0 +1,112 @@
+.nav-bg {
+  background-color: #42404d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.nav-heading {
+  color: #ffbe38;
+  font-size: 24px;
+}
+.nav-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar-ul-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.header-listItem {
+  color: #adadad;
+  font-size: 24px;
+  margin-right: 20px;
+}
+.logout-btn {
+  background-color: transparent;
+  color: #ffbe38;
+  font-size: 24px;
+  border: 1px solid #ffbe38;
+  height: 56px;
+  width: 133px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+.hamburgerBtn {
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  left: 320px;
+  padding: 1.88px 1.62px 1.88px 1.62px;
+  gap: 0px;
+  opacity: 0px;
+}
+.close-icon {
+  width: 24px;
+  height: 24px;
+  color: #cbd5e1;
+}
+@media screen and (min-width: 768px) {
+  .hamburgerBtn {
+    display: none;
+  }
+  .nav-small {
+    display: none;
+  }
+}
+.nav-small {
+  background-color: #1c1a28;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-small-info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-heading {
+    font-size: 14px;
+  }
+  .header-listItem {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #adadad;
+  }
+  .navbar-ul-list {
+    display: none;
+  }
+  .logout-btn {
+    height: 43px;
+    width: 106px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+}
+
+.nav-home {
+  outline: none;
+  text-decoration: none;
+}
+.nav-reports {
+  outline: none;
+  text-decoration: none;
+}
+
+.activeText {
+  color: #ffffff;
+}
+
+.activeReport {
+}

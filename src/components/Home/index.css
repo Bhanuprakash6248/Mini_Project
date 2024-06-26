@@ -1,0 +1,116 @@
+.home-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .home-heading {
+    display: none;
+  }
+}
+.home-heading {
+  font-size: 36px;
+  color: #ffbe38;
+}
+.emoji-container {
+  width: 80%;
+  height: 116px;
+  top: 81px;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border-radius: 19px;
+  margin-top: 10px;
+}
+.emoji-ul-container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.emoji-btn {
+  border: none;
+  background-color: transparent;
+}
+.emoji-listItem {
+  margin-right: 10px;
+  width: (67px);
+  height: (56px);
+  gap: 9px;
+  opacity: 0px;
+}
+.emoji-img {
+  height: 24px;
+  width: 24px;
+}
+
+
+.emoji-name {
+  height: 15px;
+  width: 70px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.dropDowns-con {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 220px;
+  gap: 0px;
+  border-radius: 12px;
+  border: 2.05px 0px 0px 0px;
+  opacity: 0px;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border: 2.05px solid;
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.select-con {
+  height: 40px;
+  background: #42404d;
+  border: 1px solid #7b7c7d;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.name-day-count {
+  text-align: center;
+  color: #ffffff;
+}
+
+.activeEmojiButton {
+  flex-grow: 1;
+}
+
+.active-emoji {
+  width: 32px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.activeEmojiPara {
+  font-size: 13px;
+}
