@@ -2401,7 +2401,7 @@ class Home extends Component {
     let newObj
 
     if (
-      liObj.emojiName === '' &&
+      liObj.emojiName === '' ||
       liObj.emojiName !== activeEmojiObj.emojiName
     ) {
       newObj = {
